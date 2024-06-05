@@ -1,0 +1,35 @@
+set_languages("c99", "cxx17")
+set_toolchains("clang")
+
+target("xpdf")
+    set_kind("static")
+	add_includedirs("../xpdf/xpdf", "../xpdf/goo", "../xpdf/fofi", "../xpdf/splash")
+	add_files("../xpdf/xpdf/*.cc")
+	add_files("../xpdf/pdftotext/*.cc")
+	add_cxflags("-fPIC", "-O3", "-g3")
+
+target("goo")
+    set_kind("static")
+	add_includedirs("../xpdf/xpdf", "../xpdf/goo", "../xpdf/fofi", "../xpdf/splash")
+	add_files("../xpdf/goo/*.c", "../xpdf/goo/*.cc")
+	add_cxflags("-fPIC", "-O3", "-g3")
+
+target("fofi")
+    set_kind("static")
+	add_includedirs("../xpdf/xpdf", "../xpdf/goo", "../xpdf/fofi", "../xpdf/splash")
+	add_files("../xpdf/fofi/*.cc")
+	add_cxflags("-fPIC", "-O3", "-g3")
+
+target("jansson")
+    set_kind("static")
+	add_includedirs("../janssonex/jansson")
+	add_files("../janssonex/jansson/*.c")
+	add_cxflags("-DHAVE_CONFIG_H", "-fPIC", "-O3", "-g3")
+
+target("pdfrename")
+	set_kind("binary")
+	add_deps("xpdf", "goo", "fofi", "jansson")
+	add_includedirs("../janssonex/jansson", "../janssonex")
+	add_files("pdfrename.cpp")
+	add_cxflags("-O3", "-g3", "-Wno-undefined-bool-conversion")
+

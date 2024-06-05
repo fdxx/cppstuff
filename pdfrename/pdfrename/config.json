@@ -1,0 +1,112 @@
+{
+    "商标驳回通知书": {
+        "typeMatch": "商标驳回通知书\n.+经审查",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "申 请 人: (.+)\n"
+    },
+    "商标注册申请受理通知书": {
+        "typeMatch": "商标注册申请受理通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "发文编号.+\n\n(.+)\n\n申请日期"
+    },
+    "商标注册证": {
+        "typeMatch": "核定使用商品/服务项目 （国际分类：",
+        "numberMatch": "^第 (.+) 号\n",
+        "companyMatch": "注　册　人 (.+)\n"
+    },
+    "注册商标变更名义证明": {
+        "typeMatch": "兹核准第.+号商标注册人名义变更",
+        "numberMatch": "兹核准第 (.+) 号商标注册人名义变更",
+        "companyMatch": "变更后注册人名义　(.+)\n"
+    },
+    "注册商标变更地址证明": {
+        "typeMatch": "兹核准第.+号商标注册人地址变更",
+        "numberMatch": "兹核准第 (.+) 号商标注册人地址变更",
+        "companyMatch": "兹核准第 (.+) 号商标注册人地址变更"
+    },
+	"注册商标变更名义地址证明": {
+        "typeMatch": "兹核准第.+号商标注册人名义/地址变更",
+        "numberMatch": "兹核准第 (.+) 号商标注册人名义/地址变更",
+        "companyMatch": "兹核准第 (.+) 号商标注册人名义/地址变更"
+    },
+    "商标注册同日申请补送使用证据通知书": {
+        "typeMatch": "商标注册同日申请补送使用证据通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "申 请 人: (.+)\n"
+    },
+    "商标部分驳回通知书": {
+        "typeMatch": "商标部分驳回通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "申 请 人: (.+)\n"
+    },
+    "商标变更申请补正通知书": {
+        "typeMatch": "商标变更申请补正通知书\n",
+        "numberMatch": "商标注册号 (.+)\n",
+        "companyMatch": "变 更 事 项.+\n\n(.+):"
+    },
+    "商标注册申请补正通知书": {
+        "typeMatch": "商标注册申请补正通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "商标注册申请补正通知书\n(.+): "
+    },
+    "核准注销通知书": {
+        "typeMatch": "核准注销通知书\n",
+        "numberMatch": "你（单位）提交的第(.+)号商标",
+        "companyMatch": "核准注销通知书\n(.+): "
+    },
+    "准予撤回商标注册申请通知书": {
+        "typeMatch": "准予撤回商标注册申请通知书\n",
+        "numberMatch": "注册申请号: (.+)\n",
+        "companyMatch": "注册申请号.+\n\n(.+):"
+    },
+    "商标续展注册证明": {
+        "typeMatch": "商标续展注册证明\n",
+        "numberMatch": "兹核准第 (.+) 号商标",
+        "companyMatch": "兹核准第 (.+) 号商标"
+    },
+    "驳回复审决定书": {
+        "typeMatch": "关于第.+驳回复审决定书\n",
+        "numberMatch": "关于第(.+)号",
+        "companyMatch": "申请人：(.+) .+委托代理人"
+    },
+    "商标注册申请不予受理通知书": {
+        "typeMatch": "商标注册申请不予受理通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "商标注册申请不予受理通知书\n\n(.+):"
+    },
+    "商标无效宣告答辩通知书": {
+        "typeMatch": "商标无效宣告答辩通知书\n",
+        "numberMatch": "商标注册号：(.+) 类",
+        "companyMatch": "商标无效宣告答辩通知书\n(.+)："
+    },
+    "商标转让申请补正通知书": {
+        "typeMatch": "商标转让申请补正通知书\n",
+        "numberMatch": "商标注册号 (.+)\n",
+        "companyMatch": "受让人 (.+)\n"
+    },
+    "商标评审申请受理通知书": {
+        "typeMatch": "商标评审申请受理通知书\n",
+        "numberMatch": "商标申请号: (.+)\n",
+        "companyMatch": "申 请 人 : (.+)\n"
+    },
+    "商标注册申请初步审定公告通知书": {
+        "typeMatch": "商标注册申请初步审定公告通知书\n",
+        "numberMatch": "申请号: (.+)\n",
+        "companyMatch": "申 请 人: (.+)\n"
+    },
+    "商标转让证明": {
+        "typeMatch": "商标转让证明\n",
+        "numberMatch": "兹核准第 (.+) 号商标转让注册",
+        "companyMatch": "受让人名称　(.+) 　　　　地址"
+    },
+    "撤三申请受理通知书": {
+        "typeMatch": "撤销连续三年不使用注册商标申请受理通知书\n",
+        "numberMatch": "注册号: (.+)\n",
+        "companyMatch": "撤销连续三年不使用注册商标申请受理通知书\n\n(.+):"
+    },
+    "撤三决定书": {
+        "typeMatch": "关于第.+连续三年不使用撤销申请的决定\n",
+        "numberMatch": "关于第(.+)号第",
+        "companyMatch": "连续三年不使用撤销申请的决定\n(.+)：.+："
+    }
+}
